@@ -1,0 +1,68 @@
+.page{
+	display: grid;
+	grid-template-rows: 20% 80%; 
+	grid-template-columns: 15% 45% 25% 15% ;
+	/*border: 2px solid black;*/
+	block-size: auto;
+	writing-mode: horizontal-tb;
+	font-family: Calibri; 
+	font-size: 20px;
+
+	
+
+}
+.gauche{
+	grid-row: 2;
+	grid-column: 2;
+	/*border: 2px solid #B0F2B6;*/
+	overflow: hidden;
+	padding: 10px;
+
+
+}
+.droite{
+	grid-row: 2;
+	grid-column: 3;
+	border: 2px solid black;
+	padding: 10px;
+	padding-top: 0px;
+	font-size: 20px;
+
+}
+.tete{
+	grid-column: 2/4;
+	grid-row: 1
+	border: 2px solid black;
+	text-align: right;
+	background-image: url(Images/FB_IMG_1609852579560.jpg);
+	background-position:left;
+	background-size: 170px;
+	background-repeat: no-repeat;
+	background-color: #B0F2B6;
+	padding-right: 120px; 
+
+
+	
+
+}
+
+img{
+	width: 8%;
+	height: auto;
+
+}
+h4{
+	font-size: 25px;
+}
+
+h3{
+	font-style: italic;
+	text-decoration: underline;
+	margin-top: 2em;
+}
+body{
+	background-image: url(Images/fond.jpg);
+	background-attachment:fixed;
+	background-repeat:no-repeat;
+	background-size: cover;
+}
